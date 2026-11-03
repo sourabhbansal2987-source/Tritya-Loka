@@ -1,0 +1,8 @@
+{
+  "name": "trityalok-workspace-root",
+  "private": true,
+  "description": "Root configuration for Render deployment compatibility",
+  "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build"
+  }
+}
